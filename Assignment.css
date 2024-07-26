@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bottom-bg-card {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ed5fa8, #ed835f, #f5dd67);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.bottom-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 55px;
+    letter-spacing: 8px;
+}
+
+@media (max-width: 767px) {
+    .bottom-section-heading {
+        font-size: 30px;
+    }
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+    .cards-container {
+        margin-top: 50px;
+    }
+}
+
+.bottom-card {
+    background-color: white;
+    padding: 20px;
+    font-family: sans-serif;
+    color: black;
+    width: 300px;
+    height: 100%;
+
+    margin: 20px;
+    text-align: center;
+
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+
+}
+
+.card-img {
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 50px;
+
+}
+
+.b-card-heading {
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 30px;
+    font-family: "Roboto";
+}
+
+.b-card-text {
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: "Roboto";
+}
+
+.order-button {
+    background-color: #ffffff66;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    height: 60px;
+    width: 200px;
+    margin-top: 100px;
+}
+
+
+.home-container {
+    background-image: url('https://res.cloudinary.com/dq1ktqbtb/image/upload/v1721977399/img1_optimized_bbpmtj.png');
+    background-size: cover;
+    height: 70vh;
+    padding: 100px;
+}
+
+@media (max-width: 767px) {
+    .home-container {
+        height: 40vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-container {
+        height: 50%;
+    }
+}
+
+.card-container {
+    background: rgba(252, 74, 68, 0.5);
+    padding: 50px;
+    width: 64%;
+}
+
+@media (max-width: 767px) {
+    .card-container {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-container {
+        padding: 30px;
+        width: 50%;
+    }
+}
+
+.homeCard-heading {
+    color: #fff;
+    font-size: 55px;
+    padding-bottom: 10px;
+    font-family: "Roboto";
+}
+
+@media (max-width: 767px) {
+    .homeCard-heading {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .homeCard-heading {
+        font-size: 30px;
+    }
+}
+
+.homeCard-description {
+    color: #fff;
+    line-height: 1.5;
+    word-spacing: 5px;
+    width: 93%;
+    font-size: 22px;
+    font-family: "Roboto";
+}
+
+@media (max-width: 767px) {
+    .homeCard-description {
+        word-spacing: 0px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .homeCard-description {
+        font-size: 12px;
+    }
+}
+
+.border {
+    background-image: linear-gradient(to right, #ed5fa8, #ed835f, #f5dd67);
+    height: 10vh;
+}
+
+@media (max-width: 767px) {
+    .border {
+        height: 5vh;
+    }
+}
+
+.breakLine {
+    border: #2b2b2a solid 8px;
+}
+
+@media (max-width: 767px) {
+    .breakLine {
+        border: #2b2b2a solid 5px;
+    }
+}
+
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+@media (max-width: 767px) {
+    .nav-bar {
+        padding: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav-bar {
+        justify-content: center;
+    }
+}
+
+.logo img {
+    width: 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 30px;
+    font-family: "Bree Serif";
+    font-weight: 600;
+}
+
+@media (min-width: 992px) {
+    .menu li {
+        padding-left: 50px;
+    }
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #181818;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #181818;
+}
+
+.menu li a:hover:after {
+    width: 100%;
+}
+
+.open-menu,
+.close-menu {
+    position: absolute;
+    color: #181818;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 100%;
+    right: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 10px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+    color: #fff;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width: 610px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #181818;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu li {
+        margin-top: 40px;
+    }
+
+    .menu li a {
+        padding: 10px;
+        color: #fff;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+}
+
+@media(max-width: 610px) {
+    .icons-container {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navIcon {
+        display: none;
+    }
+}
+
+.navIcon {
+    padding-right: 10px;
+}
